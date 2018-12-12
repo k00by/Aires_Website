@@ -110,7 +110,7 @@ input, select, textarea {
 		line-height: 1.65em;
 	}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: device-width) {
 
 			body, input, select, textarea {
 				font-size: 13pt;
@@ -118,7 +118,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: device-width) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -126,7 +126,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: device-width) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
