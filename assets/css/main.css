@@ -1796,7 +1796,7 @@ input, select, textarea {
 			top: 0;
 		}
 
-		@media screen and (max-width: device-width) {
+		@media screen and (max-width: 736px) {
 
 			header.major {
 				margin: 0 0 2em 0;
