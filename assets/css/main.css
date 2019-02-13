@@ -29,6 +29,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+album_cover {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 body {
 	line-height: 1;
 }
@@ -59,7 +67,6 @@ mark {
 	background-color: transparent;
 	color: inherit;
 }
-
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
