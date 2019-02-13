@@ -29,14 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-album_cover {
-    padding: 2;
-    display: block;
-    margin: 0 auto;
-    max-height: 80%;
-    max-width: 80%;
-}
-
 body {
 	line-height: 1;
 }
