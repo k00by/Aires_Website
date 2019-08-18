@@ -30,22 +30,16 @@
         "image": "/members/pyro.jpg"
     },
     {
-        "name": "Henry 'Palo' Phipps '21",
-        "role": "Tenor",
-        "hometown": "Woodside, CA",
-        "image": "/members/palo.jpg"
-    },
-    {
-        "name": "Santosh 'Phoeno' Sivakumar '22", 
-        "role": "Alumni Chair <br/> Tenor",
-        "hometown": "Cupertino, CA",
-        "image": "/members/phoeno.jpg"
-    },
-    {
         "name": "Owen 'Dasho' Stoddard '18",
         "role": "Tenor",
         "hometown": "Portland, ME",
         "image": "/members/dasho.png"
+    },
+    {
+        "name": "Henry 'Palo' Phipps '21",
+        "role": "Tenor",
+        "hometown": "Woodside, CA",
+        "image": "/members/palo.jpg"
     },
     {
         "name": "Edward 'Nado' Allen '21",
@@ -70,6 +64,12 @@
         "role": "Baritone",
         "hometown": "Andover, MA",
         "image": "/members/drako.jpg"
+    },
+    {
+        "name": "Santosh 'Phoeno' Sivakumar '22", 
+        "role": "Alumni Chair <br/> Tenor",
+        "hometown": "Cupertino, CA",
+        "image": "/members/phoeno.jpg"
     },
     {
         "name": "William 'Piko' Reicher '22",
