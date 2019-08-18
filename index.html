@@ -2,102 +2,101 @@
 
 <html>
 	<head>
-		<title>The Dartmouth Aires</title>
-		<meta charset="utf-8" />
+        <title>The Dartmouth Aires</title>
+        <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
+        <link rel="stylesheet" href="style.css" />
+        <script src="jquery-3.4.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Rubik&display=swap" rel="stylesheet">
+    </head>
+    
+	<body>
+        <nav>
+            <ul>
+              <li><a href="#Home">HOME</a></li>
+              <li><a href="#About">ABOUT</a></li>
+              <li><a href="#Members">MEMBERS</a></li>
+              <li><a href="#Music">MUSIC</a></li>
+              <li><a href="#Alumni">ALUMNI</a></li>
+              <li><a href="https://mkt.com/the-dartmouth-aires?square_lead=button">STORE</a></li>
+              <li><a href="#Contact">CONTACT US</a></li>
+            </ul>
+          </nav>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+        <main>
+            <section class="Banner-image" id="Home">
+                <div class="Banner-text">
+                    <h1>We're the </br> Dartmouth Aires</h1>
+                    <p>Dartmouth College's oldest a cappella group</p>
+                </div>
+            </section>
+            <section class="About" id="About">
+                <h1>WHO ARE THE AIRES?</h1>
+                <p>
+                    Greetings! You've reached the home page of the Dartmouth Aires, 
+                    Dartmouth College's oldest a cappella group and one of the nation's premiere performing ensembles.  
+                    We have been singing live, producing albums, and touring the country since our founding in 1946.  
+                    Our repertoire features a wide mix of contemporary favorites, traditional Dartmouth tunes, 
+                    sketch comedy, and the occasional piece of opera, guaranteed to please all ages.
+                </p>
+                <div class="About-images">
+                    <img class="About-image" src="images/alumnoot.jpg">
+                    <img class="About-image" src="images/turboMom.jpg">   
+                    <img class="About-image" src="images/pyramidSquared.jpg">     
+                </div>
+                <!-- <div class="About book">
+                    <p>Book us now!</p>
+                </div> -->  
+            </section>
+            <section class="Members" id="Members">
+                <h1>MEET THE AIRES!</h1>
+                <div class="Members-grid" id="Members-grid"> 
+                    <!-- members loaded in by loadMembers.js -->
+                </div>
+            </section>
+            <section class="Music" id="Music">
+                <h1>LISTEN TO THE AIRES!</h1>
+                    <!-- albums loaded in by loadAlbums.js -->
+            </section>
+            <section class="Alumni" id="Alumni">
+                <h1>AIRES ALUMNI</h1>
+                <h3>(Scroll to the right to see older Aires)</h3>
+                <div class="Alumni-classes" id="Alumni-classes">
+                   <!-- alumni loaded in by loadAlumni.js -->
+                </div>
+            </section>
+        </main>
+           
+        <footer class="Footer" id="Contact">
+            <div class="Footer-content">
+                <div class="Footer-icons">
+                    <a href="http://www.facebook.com/dartmouthairessingoff"><img class="Icon" src="icons/facebook.svg"></a>
+                    <a href="https://www.youtube.com/channel/UCN1625OYg5U0eCD2vcdDyvg"><img class="Icon" src="icons/youtube.svg"></a>
+                    <a href="http://www.instagram.com/dartmouthaires"><img class="Icon" src="icons/instagram.svg"></a>
+                    <a href="http://www.twitter.com/dartmouthaires"><img class="Icon" src="icons/twitter.svg"></a>
+                    <a href="mailto:aires@dartmouth.edu"><img class="Icon" src="icons/email.svg"></a>
+                </div>
+                <div class="Icon-disclaimer">
+                    Icons made by <a href="https://www.flaticon.com/authors/bogdan-rosu" title="Bogdan Rosu">Bogdan Rosu </a>
+                    and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com </a> 
+                    are licensed by 
+                    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a
+                ></div>
+                <div class="Footer-copyright">
+                    <p>&copy; The Dartmouth Aires 2018</p>
+                    <p>Aires@Dartmouth.edu</p>
+                    <p>(203) 400-2503</p>
+                </div>
+            </div>   
+        </footer>
+        
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">The Dartmouth Aires</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="airesmembers.html">Members</a></li>
-											<li><a href="airesmedia.html">Media</a></li>
-											<li><a href="https://mkt.com/the-dartmouth-aires?square_lead=button">Store</a></li>
-											<li><a href="airesalumni.html">Alumni</a></li>
-											<li><a href="https://www.dartmouthairesportal.com/alumni-portal/">Alumni Portal</a></li>
-											<li><a href="https://www.dartmouthairesportal.com/undergrad-portal/">Undergrad Portal</a></li>
-											
-											
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>The Dartmouth Aires</h2>
-							<p>Dartmouth College's oldest a cappella group<br />		
-							<!-- OPTION FOR AN ENTER BUTTON
-							
-								<ul class="actions special">
-								<li><a href="#" class="button primary">Enter</a></li>
-							</ul> -->
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
-				
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-                                <h2><center>Who are The Aires?</center></h2>
-                                <br>
-                                <strong><center>Greetings! You've reached the home page of the Dartmouth Aires, Dartmouth College's oldest a cappella group and one of the nation's premiere performing ensembles.  We have been singing live, producing albums, and touring the country since our founding in 1946.  Our repertoire features a wide mix of contemporary favorites, traditional Dartmouth tunes, sketch comedy, and the occasional piece of opera, guaranteed to please all ages.</center></strong>
-								<br><br><br>
-                                <p><center>Want to hear for yourself? Book us <a href="mailto:aires@dartmouth.edu" target="_top"><strong>here!</strong></a></center></p>
-                                <br>	
-					
-							<strong>Click below to listen to our latest album:</strong>
-							<br><br>
-							<p><a href="https://open.spotify.com/album/2c3RatEKHU9sF0kv0ynQO2"><img src="images/onaire.jpg" class="image fit" alt=""></a></p>
-							</header>
-							<!-- <ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>-->
-						</div>
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://www.youtube.com/channel/UCN1625OYg5U0eCD2vcdDyvg" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
-							<li><a href="http://www.instagram.com/dartmouthaires" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="http://www.twitter.com/dartmouthaires" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="http://www.facebook.com/dartmouthairessingoff" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="mailto:aires@dartmouth.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; The Dartmouth Aires 2018</li><li>(603) 942-2471</li><li>Designed by  <a href="mailto:daniella.kubiak.20@dartmouth.edu" target="_top">Daniella Kubiak</a></li>
-						</ul>
-					</footer>
-
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <script src="loadMembers.js"></script>
+        <script src="loadAlbums.js"></script>
+        <script src="loadAlumni.js"></script>
+        <script src="stickySidebar.js"></script>
+    </body>
 </html>

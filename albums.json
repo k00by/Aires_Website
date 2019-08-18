@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Visionaire (2019)",
+        "description": "Visionaire is our latest EP featuring some of our favorite songs to sing including 'Blessed Part,' a mashup of Daniel Caesar's 'Blessed' and 'Best Part,' 'Tell Me Something Good,' 'Too Good At Goodbyes,' and 'The Middle.'",
+        "cover": "/albumCovers/visionaire.jpg",
+        "spotifyURI": "6aHlKXvgMOgKxwQDCadMin"
+    },
+    {
+        "name": "On Aire (2017)",
+        "description": "On Aire is out most recent album. It features Aires from the class of 2015 to the class of 2020. Some of our favorites are 'Marvin Gaye Medley,' 'Destiny's Child Medley,' and 'Bad.'",
+        "cover": "/albumCovers/onAire.jpg",
+        "spotifyURI": "2c3RatEKHU9sF0kv0ynQO2"
+    },
+    {
+        "name": "Truth Or Daire (2014)",
+        "description": "Truth Or Daire came out a while back, but it remains one of our favorite, and we often sing arrangements from it.",
+        "cover": "/albumCovers/truthOrDaire.jpg",
+        "spotifyURI": "0u1kNxp9MjX2FkwUYMDfS5"
+    }
+]

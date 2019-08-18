@@ -1,0 +1,272 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Rubik', sans-serif;
+margin: 0;
+display: grid;
+grid-template-columns: min-content 1fr;
+font-family: system-ui, sans-serif;
+
+/* this breaks position sticky in Firefox */
+/* overflow-x: hidden; */
+}
+
+.Footer {
+    grid-column: 1 / 3;
+    background: #42b342;
+    padding: 5rem 1rem;
+}
+
+.Footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer-copyright {
+    display: flex;
+}
+
+.Footer-copyright p {
+    color: white;
+    padding: 10px;
+    font-size: 1.8vw;
+}
+
+.Footer-icons a {
+    color: white;
+    font-size: 3vw;
+    padding: 5px;
+}
+
+.Banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/banner.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Banner-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+nav {
+    width: 130px;
+    white-space: nowrap;
+    background: #195519;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* Only stick if you can fit */
+  @media (min-height: 300px) {
+    nav ul {
+      position: sticky;
+      top: 0;
+    }
+  }
+  nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a.current {
+    background: white;
+    color: #195519;
+  }
+
+.About {
+    display: flex;
+    background-image: linear-gradient(to bottom, #195519 ,#348b34);
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.About-images {
+    display: flex;
+    justify-content: space-around;
+    width: 84%;
+}
+
+.About-image {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.About h1 {
+    margin: 10px;
+    color: white;
+}
+.About p {
+    margin: 10px;
+    padding: 0 120px 0 120px;
+    line-height: 25px;
+    color: white;
+}
+
+.About.book {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    background: pink;
+}
+
+.Members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+.Members h1, .Members h2, .Members h3 {
+    color: green;
+}
+
+.Members-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.Member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+
+.Member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Member-info h1, .Member-info h2, .Member-info h3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+.Member-info h1 {
+    font-size: 1.1vw;
+}
+.Member-info h2 {
+    font-size: 1vw;
+    text-align: center;
+}
+.Member-info h3 {
+    font-size: .9vw;
+}
+.Member-info p {
+    color: black;
+}
+.Member-photo {
+    width: 17vw;
+    height: 17vw;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.Music {
+    background-image: linear-gradient(to bottom, #348b34 ,#42b342);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Music h1, .Music h2, .Music p {
+    color: white;
+}
+
+.Music-album {
+    display: flex;
+    margin: 20px 40px;
+}
+
+.Music-album-cover {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 20px;
+}
+
+.Music-album-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.Alumni {
+    background:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Alumni h1 {
+    color: green;
+    margin: 20px 0 10px 0;
+}
+.Alumni h3 {
+    color: green;
+    font-size: .8em;
+    margin: 0 0 10px 0;
+}
+
+.Alumni-classes {
+    max-width: calc(100vw - 180px);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+
+.Alumni-classes ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.Alumni-class {
+    display: inline-block;
+    margin: 0 0 10px 0;
+}
+
+.Alumni-class h2 {
+    color: green;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.Alumni-class li {
+    color: green;
+    padding: 2px;
+}
+
+.Icon {
+    width: 50px;
+    height: 50px;
+}
+
+.Icon-disclaimer, .Icon-disclaimer a {
+    color: white;
+    font-size: 8px;
+}

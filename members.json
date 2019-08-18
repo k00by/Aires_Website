@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Zac 'Oso' Gottschall '20",
+        "role": "Music Director <br/> Baritone",
+        "hometown": "Trumbull, CT",
+        "image": "/members/oso.jpg"
+    },
+    {
+        "name": "Eni 'Cayo' Oyeleye '20",
+        "role": "Business Manager <br/> Bass",
+        "hometown": "Houston, Texas",
+        "image": "/members/cayo.jpg"
+    },
+    {
+        "name": "Noah 'Eko' Drazen '20",
+        "role": "Tenor",
+        "hometown": "West Hartford, CT",
+        "image": "/members/eko.jpg"
+    },
+    {
+        "name": "Alex 'Zorpo' Miller '20",
+        "role": "Tenor",
+        "hometown": "Holladay, UT",
+        "image": "/members/zorpo.jpg"
+    },
+    {
+        "name": "Emmanuel 'Pyro' Howze-Warkie '20",
+        "role": "Social Media Chair <br/> Baritone",
+        "hometown": "Cleveland, MS",
+        "image": "/members/pyro.jpg"
+    },
+    {
+        "name": "Henry 'Palo' Phipps '21",
+        "role": "Tenor",
+        "hometown": "Woodside, CA",
+        "image": "/members/palo.jpg"
+    },
+    {
+        "name": "Santosh 'Phoeno' Sivakumar '22", 
+        "role": "Alumni Chair <br/> Tenor",
+        "hometown": "Cupertino, CA",
+        "image": "/members/phoeno.jpg"
+    },
+    {
+        "name": "Owen 'Dasho' Stoddard '18",
+        "role": "Tenor",
+        "hometown": "Portland, ME",
+        "image": "/members/dasho.png"
+    },
+    {
+        "name": "Edward 'Nado' Allen '21",
+        "role": "Baritone",
+        "hometown": "New York, NY",
+        "image": "/members/nado.jpg"
+    },
+    {
+        "name": "Jeffers 'Zumo' Insley '21",
+        "role": "Baritone",
+        "hometown": "Baltimore, MD",
+        "image": "/members/zumo.jpg"
+    },
+    {
+        "name": "Mac 'Turbo' Galinson '21",
+        "role": "Tenor",
+        "hometown": "Amherst, NH",
+        "image": "/members/turbo.jpg"
+    },
+    {
+        "name": "Edward 'Drako' Lu '21",
+        "role": "Baritone",
+        "hometown": "Andover, MA",
+        "image": "/members/drako.jpg"
+    },
+    {
+        "name": "William 'Piko' Reicher '22",
+        "role": "Tenor",
+        "hometown": "Oakland, CA",
+        "image": "/members/piko.jpg"
+    },
+    {
+        "name": "Joseph 'Jago' Collum '22",
+        "role": "Baritone",
+        "hometown": "Waddy, KY",
+        "image": "/members/jago.jpg"
+    },
+    {
+        "name": "Jacob 'Aro' Donague '22",
+        "role": "Tenor",
+        "hometown": "Washington, DC",
+        "image": "/members/aro.jpg"
+    },
+    {
+        "name": "Zachary 'Flippo' Campbell '22",
+        "role": "Bass",
+        "hometown": "Long Island, NY",
+        "image": "/members/flippo.jpg"
+    }
+]
