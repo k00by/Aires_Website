@@ -1,4 +1,4 @@
-$.getJSON('alumni.json', function(classes) {
+$.getJSON('/json/alumni.json', function(classes) {
     classes.forEach((memberGroup) => {
         const { year, members } = memberGroup;
         var memberList = '';

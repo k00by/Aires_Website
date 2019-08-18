@@ -42,7 +42,7 @@ font-family: system-ui, sans-serif;
 }
 
 .Banner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/banner/axoLookingCool.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

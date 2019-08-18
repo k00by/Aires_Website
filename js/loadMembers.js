@@ -1,4 +1,4 @@
-$.getJSON('members.json', function(members) {
+$.getJSON('/json/members.json', function(members) {
     members.forEach((member) => {
         $('#Members-grid').append(`
         <div class="Member">

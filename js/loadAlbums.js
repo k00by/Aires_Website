@@ -1,4 +1,4 @@
-$.getJSON('albums.json', function(albums) {
+$.getJSON('/json/albums.json', function(albums) {
     albums.forEach((album) => {
         $('#Music').append(`
         <div class="Music-album">
