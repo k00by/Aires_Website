@@ -1,13 +1,25 @@
 [
     {
+        "name": "Henry 'Palo' Phipps '21",
+        "role": "Music Director <br/> Tenor",
+        "hometown": "Woodside, CA",
+        "image": "/images/members/palo.jpg"
+    },
+    {
+        "name": "Edward 'Nado' Allen '21",
+        "role": "Business Manager <br/> Baritone",
+        "hometown": "New York, NY",
+        "image": "/images/members/nado.jpg"
+    },
+    {
         "name": "Zac 'Oso' Gottschall '20",
-        "role": "Music Director <br/> Baritone",
+        "role": "Baritone",
         "hometown": "Trumbull, CT",
         "image": "/images/members/oso.jpg"
     },
     {
         "name": "Eni 'Cayo' Oyeleye '20",
-        "role": "Business Manager <br/> Bass",
+        "role": "Bass",
         "hometown": "Houston, TX",
         "image": "/images/members/cayo.jpg"
     },
@@ -34,18 +46,6 @@
         "role": "Tenor",
         "hometown": "Portland, ME",
         "image": "/images/members/dasho.png"
-    },
-    {
-        "name": "Henry 'Palo' Phipps '21",
-        "role": "Tenor",
-        "hometown": "Woodside, CA",
-        "image": "/images/members/palo.jpg"
-    },
-    {
-        "name": "Edward 'Nado' Allen '21",
-        "role": "Baritone",
-        "hometown": "New York, NY",
-        "image": "/images/members/nado.jpg"
     },
     {
         "name": "Jeffers 'Zumo' Insley '21",
@@ -94,5 +94,11 @@
         "role": "Bass",
         "hometown": "Long Island, NY",
         "image": "/images/members/flippo.jpg"
+    },
+    {
+        "name": "Sheil 'Kakto' Sharma",
+        "role": "Tenor",
+        "hometown": "Fayetteville, AR",
+        "image": "/images/members/kakto.jpeg"
     }
 ]
