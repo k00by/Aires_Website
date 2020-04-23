@@ -102,6 +102,30 @@
         "image": "/images/members/flippo.jpg"
     },
     {
+        "name": "Daniel 'Cubo' Abate '23",
+        "role": "Tenor",
+        "hometown": "Nairobi, Kenya",
+        "image": "/images/members/cubo.png"
+    },
+    {
+        "name": "Brendan 'Disqo' Flewelling '23",
+        "role": "Baritone",
+        "hometown": "Colorado Springs, CO",
+        "image": "/images/members/disqo.jpg"
+    },
+    {
+        "name": "Spencer 'Pinto' Grimm '23",
+        "role": "Baritone",
+        "hometown": "Denver, CO",
+        "image": "/images/members/pinto.png"
+    },
+    {
+        "name": "Patrick 'Macko' Howard '23",
+        "role": "Bass",
+        "hometown": "Darien, CT",
+        "image": "/images/members/macko.jpg"
+    },
+    {
         "name": "Sheil 'Kakto' Sharma '23",
         "role": "Tenor",
         "hometown": "Fayetteville, AR",
