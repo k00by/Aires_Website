@@ -72,6 +72,12 @@
         "image": "/images/members/phoeno.jpg"
     },
     {
+        "name": "Kaj 'Villo' Johnson '22",
+        "role": "Bass",
+        "hometown": "Minneapolis, MN",
+        "image": "/images/members/villo.jpg"
+    },
+    {
         "name": "William 'Piko' Reicher '22",
         "role": "Tenor",
         "hometown": "Oakland, CA",
@@ -96,7 +102,7 @@
         "image": "/images/members/flippo.jpg"
     },
     {
-        "name": "Sheil 'Kakto' Sharma",
+        "name": "Sheil 'Kakto' Sharma '23",
         "role": "Tenor",
         "hometown": "Fayetteville, AR",
         "image": "/images/members/kakto.jpeg"
