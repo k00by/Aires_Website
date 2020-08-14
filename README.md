@@ -37,4 +37,4 @@
 4. If you're removing an album, remove the photo from the `images/albums` folder.
 
 ## Are you stuck?
-Contact Oso!
+Contact Villo! And if Villo doesn't know, contact the original site designer Oso!
